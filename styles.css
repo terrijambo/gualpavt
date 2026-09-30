@@ -2,3 +2,22 @@
 
 .film-hero{position:relative;width:100%;background:#28291f;aspect-ratio:16/9;max-height:calc(100svh - 92px);overflow:hidden}.film-hero video,.film-hero img{display:block;width:100%;height:100%;object-fit:cover}.film-hero [hidden]{display:none}
 
+/* Ecuador: yellow, blue, and red, with a warm neutral reading surface. */
+:root{--paper:#fff8df;--ink:#142b50;--red:#c62635;--yellow:#ffdd00;--blue:#034ea2;--line:#e2d8ae}
+.topline{background:var(--blue)}
+header{border-bottom:3px solid var(--yellow)}
+.seal,.button,.closing{background:var(--red)}
+.button:hover{background:#a51c29}
+.ribbon{background:var(--yellow);color:var(--blue);border-bottom:5px solid var(--blue)}
+.stamp{color:var(--blue);border-color:var(--blue)}
+.story{background:#fff0af}
+.lede,.section-heading>p,.category-grid p,.availability,.story p:not(.eyebrow),.visit-info p{color:#49566b}
+.jewelry-art{background:#dce8f6;color:var(--blue)}
+.jewelry-art em,.art-star{color:var(--red)}
+.ring{border-color:#d7ab00}
+.filters button[aria-pressed=true]{background:var(--blue);border-color:var(--blue)}
+.map{background:#dce8f6}
+.closing{border-top:8px solid var(--yellow)}
+:focus-visible{outline-color:var(--blue)}
+.mobile-bar a{background:var(--blue)}
+
