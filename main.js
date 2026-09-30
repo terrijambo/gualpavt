@@ -11,3 +11,6 @@ function closeMenu(){nav.classList.remove('open');menu.setAttribute('aria-expand
 menu.addEventListener('click',()=>{const open=nav.classList.toggle('open');menu.setAttribute('aria-expanded',String(open));menu.setAttribute('aria-label',open?'Close menu':'Open menu')});nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',closeMenu));document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeMenu();menu.focus()}});
 document.querySelectorAll('[data-filter]').forEach(button=>button.addEventListener('click',()=>{document.querySelectorAll('[data-filter]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));document.querySelectorAll('[data-category]').forEach(card=>card.hidden=button.dataset.filter!=='all'&&card.dataset.category!==button.dataset.filter)}));
 document.querySelector('#year').textContent=new Date().getFullYear();renderLanguage();setInterval(updateStatus,60000);
+
+const heroFilm=document.querySelector("#hero-film"),heroStill=document.querySelector("#hero-still");function freezeHero(){heroFilm.pause();heroFilm.hidden=true;heroStill.hidden=false}heroFilm.addEventListener("ended",freezeHero);heroFilm.addEventListener("error",freezeHero);if(matchMedia("(prefers-reduced-motion: reduce)").matches){freezeHero()}else{heroFilm.play().catch(freezeHero)}
+
