@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://gualpavt.vercel.app/sitemap.xml
