@@ -23,7 +23,7 @@ Four photographs sourced from the Google listing's **By owner** collection, attr
 - `assets/bakery.webp`: packaged bakery products.
 - `assets/clothing.webp`: clothing display and surrounding shelves.
 
-Jewelry category uses an original CSS illustration, not a product photograph or stock claim.
+Jewelry category now uses a client-supplied photograph of the actual shop display.
 
 ## Design references
 
@@ -33,3 +33,7 @@ Jewelry category uses an original CSS illustration, not a product photograph or 
 ## Client notes — October 6, 2026
 
 Client-provided notes establish the customer-facing name Guallpa Latin Market; fresh Central American baked goods; imported spices, pasta, rice, snacks, cookies, candies and soft drinks; fresh fruit and cheese; frozen treats and fruits including guava and soursop; family clothing, hats, soccer jerseys, construction clothing and construction/roofing gear. Added Maria’s family-business story and four years of prior store ownership in Massachusetts. “21 years in the US” is expressed as more than two decades to avoid a rapidly stale exact count; the relative one-year Vermont tenure is omitted. The claim that this is the only Latin market in the Burlington area is not published without corroboration. Existing jewelry and traditional clothing remain supported by original business listing. Existing video and storefront photography retain their embedded historical Store lettering. Maps retain original listing queries to resolve the correct business.
+
+## Client photography — October 6, 2026
+
+Twelve real shop photographs supplied by the client are published under `assets/shop/` as optimized JPEG images. They replace the introduction aisle, bakery and clothing photos, the four illustrated category placeholders, and the story photo. The story uses the family at the counter; the storefront remains available for social sharing. A supporting photo row shows plantains, chilled drinks, Ecuador jerseys, and herbs. Near-duplicate shots were omitted to keep the page focused and lightweight. Original Photos library files were left unchanged.
