@@ -23,10 +23,10 @@ header{border-bottom:3px solid var(--yellow)}
 
 
 /* Real shop photography and supporting product details. */
-.story img{height:560px;object-position:center 45%}
+.story img{height:auto;object-position:center}
 .shop-details{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px;margin-top:50px;padding-top:30px;border-top:1px solid var(--line)}
 .shop-details img{height:240px;object-fit:cover}
 .shop-details figcaption{font-size:12px;font-weight:600;margin-top:10px}
-@media(max-width:1000px){.story img{height:480px}.shop-details img{height:200px}}
+@media(max-width:1000px){.story img{height:auto}.shop-details img{height:200px}}
 @media(max-width:720px){.story img{height:auto}.shop-details{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 14px;margin-top:35px}.shop-details img{height:200px}.shop-details figcaption{font-size:11px}}
 @media(max-width:720px){.hero-photo{margin-right:14px}}
