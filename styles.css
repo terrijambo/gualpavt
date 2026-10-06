@@ -21,3 +21,5 @@ header{border-bottom:3px solid var(--yellow)}
 :focus-visible{outline-color:var(--blue)}
 .mobile-bar a{background:var(--blue)}
 
+
+.selection-art{height:340px;display:flex;flex-direction:column;justify-content:center;padding:35px;background:var(--yellow);color:var(--blue)}.selection-art>span{font:800 55px/.98 var(--display)}.selection-art small{font-size:10px;letter-spacing:.1em;margin-top:25px}.fresh-art{background:#dce8f6}.work-art{background:var(--blue);color:var(--paper)}@media(min-width:721px) and (max-width:1000px){.selection-art{height:280px;padding:25px}.selection-art>span{font-size:44px}}

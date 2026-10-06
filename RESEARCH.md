@@ -29,3 +29,7 @@ Jewelry category uses an original CSS illustration, not a product photograph or 
 
 - https://github.com/asheesh8/IchibanRamen — inspected locally. Inspiration: warm paper palette, condensed display type, clear local-business navigation and visit information. No source code or restaurant assets copied.
 - https://design-inspo-bay.vercel.app/#collect — read in browser. A directory of design galleries and collections; inspired simple editorial hierarchy and photo-led category discovery.
+
+## Client notes — October 6, 2026
+
+Client-provided notes establish the customer-facing name Guallpa Latin Market; fresh Central American baked goods; imported spices, pasta, rice, snacks, cookies, candies and soft drinks; fresh fruit and cheese; frozen treats and fruits including guava and soursop; family clothing, hats, soccer jerseys, construction clothing and construction/roofing gear. Added Maria’s family-business story and four years of prior store ownership in Massachusetts. “21 years in the US” is expressed as more than two decades to avoid a rapidly stale exact count; the relative one-year Vermont tenure is omitted. The claim that this is the only Latin market in the Burlington area is not published without corroboration. Existing jewelry and traditional clothing remain supported by original business listing. Existing video and storefront photography retain their embedded historical Store lettering. Maps retain original listing queries to resolve the correct business.
